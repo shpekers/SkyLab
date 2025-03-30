@@ -106,6 +106,6 @@ if %errorlevel% NEQ 0 (
 )
 
 sc create %SRVCNAME% binPath= "\"%BIN_PATH%SkyService.exe\" %ARGS%" DisplayName= "%SRVCNAME%" start= auto
-sc description %SRVCNAME% "SkyLab → vavilbisk.ct.ws"
+sc description %SRVCNAME% "SkyLab → shpekers.ru"
 sc start %SRVCNAME%
 exit

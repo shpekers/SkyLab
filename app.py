@@ -74,7 +74,7 @@ def run_script(script_name):
     else:
         print(f"Скрипт {script_name}.bat не найден.")
 
-methods = ["Основной", "Резервный 1", "Резервный 2", "Резервный 3", "Резервный 4", "Резервный 5", "Резервный 6", "Резервный 7", "Только Discord"]
+methods = ["Основной", "Резервный 1", "Резервный 2", "Резервный 3", "Резервный 4", "Резервный 5", "Резервный 6", "Резервный 7", "Только Discord", "FAKE TLS MOD"]
 
 selected_method = ctk.StringVar(value="Выберите метод")
 
@@ -98,10 +98,10 @@ start_button.pack_forget()
 
 settings_label = ctk.CTkLabel(tabview.tab("Другое"), text="Информация", font=("Arial", 24))
 settings_label.pack(pady=20)
-settings_label = ctk.CTkLabel(tabview.tab("Другое"), text="Версия: 3.0.1", font=("Arial", 16))
+settings_label = ctk.CTkLabel(tabview.tab("Другое"), text="Версия: 3.0.2", font=("Arial", 16))
 settings_label.pack()
 def run_site():
-    webbrowser.open("http://shpekers.ru")
+    webbrowser.open("https://shpekers.ru")
 site_button = ctk.CTkButton(tabview.tab("Другое"), text="Сайт", command=run_site)
 site_button.pack(pady=10)
 
