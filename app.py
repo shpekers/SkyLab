@@ -98,7 +98,7 @@ start_button.pack_forget()
 
 settings_label = ctk.CTkLabel(tabview.tab("Другое"), text="Информация", font=("Arial", 24))
 settings_label.pack(pady=20)
-settings_label = ctk.CTkLabel(tabview.tab("Другое"), text="Версия: 3.0.2", font=("Arial", 16))
+settings_label = ctk.CTkLabel(tabview.tab("Другое"), text="Версия: 3.0.2z", font=("Arial", 16))
 settings_label.pack()
 def run_site():
     webbrowser.open("https://shpekers.ru")
